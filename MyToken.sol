@@ -17,6 +17,8 @@ contract MyToken is ERC721, ERC721Enumerable, ERC721URIStorage, ERC721Burnable {
         ERC721(name, symbol)
     {}
 
+    // Example uri:- "https://gateway.pinata.cloud/ipfs/QmTNcYRUPuoHSvw54B8LQtaCydYAvCBteCrShByzVhQBfb"
+
     function safeMint(address to, string memory uri)
         public       
     {
